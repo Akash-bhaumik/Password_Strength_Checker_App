@@ -73,8 +73,8 @@ def calculate_password_strength(password):
 
 # Streamlit app
 def main():
-    st.set_page_config(page_title="Advanced Password Strength Tester", page_icon="🔐", layout="centered")
-    st.title("🔐 Advanced Password Strength Tester")
+    st.set_page_config(page_title="Password Strength Tester", page_icon="🔐", layout="centered")
+    st.title("🔐 Password Strength Tester")
     st.markdown("Check how strong your password is with a **detailed breakdown** & improvement tips.")
 
     password = st.text_input("Enter your password", type="password")
